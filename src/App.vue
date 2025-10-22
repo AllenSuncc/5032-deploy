@@ -21,6 +21,7 @@ export default {
   },
   computed: {
     // 如果当前路由名不是 CountBookAPI，就显示 Header
+    // 否则，就隐藏 Header
     showHeader() {
       const hiddenPages = ['CountBookAPI', 'GetAllBookAPI']
       return !hiddenPages.includes(this.$route.name)
