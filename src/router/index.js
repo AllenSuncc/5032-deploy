@@ -9,6 +9,7 @@ import GetBookCountView from '@/views/GetBookCountView.vue'
 import WeatherView from '../views/WeatherView.vue'
 import CountBookAPI from '@/views/CountBookAPI.vue'
 import GetAllBookAPI from '../views/GetAllBookAPI.vue'
+import { createWebHashHistory } from 'vue-router'
 
 const routes = [
   {
@@ -64,7 +65,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory(),
   routes
 })
 
