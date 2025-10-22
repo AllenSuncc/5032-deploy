@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import FirebaseRegisterView from '../views/FirebaseRegisterView.vue'
 import FirebaseSigninView from '../views/FirebaseSigninView.vue'
 import HomePage from '../views/HomePage.vue'
@@ -9,7 +9,6 @@ import GetBookCountView from '@/views/GetBookCountView.vue'
 import WeatherView from '../views/WeatherView.vue'
 import CountBookAPI from '@/views/CountBookAPI.vue'
 import GetAllBookAPI from '../views/GetAllBookAPI.vue'
-import { createWebHashHistory } from 'vue-router'
 
 const routes = [
   {
